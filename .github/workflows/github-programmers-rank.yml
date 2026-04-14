@@ -10,6 +10,7 @@ on:
     branches: [ "master" ]
   schedule:
     - cron: '0 5 * * 1-5'
+  workflow_dispatch: # 이 줄을 추가하세요! (수동 실행 버튼 활성화)
 
 jobs:
   build:
